@@ -51,6 +51,8 @@
 		2EC42DF9286B912B00EFA90C /* moodwaveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moodwaveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EC42DFD286B912B00EFA90C /* moodwaveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moodwaveUITests.swift; sourceTree = "<group>"; };
 		2EC42DFF286B912B00EFA90C /* moodwaveUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moodwaveUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2EC42E0C286CAD6D00EFA90C /* PoiretOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PoiretOne-Regular.ttf"; path = "../../../poiret-one/PoiretOne-Regular.ttf"; sourceTree = "<group>"; };
+		2EC42E0D286CAD7100EFA90C /* PoiretOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PoiretOne-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				2EC42DDB286B912800EFA90C /* SceneDelegate.swift */,
 				2EC42DDD286B912800EFA90C /* ViewController.swift */,
 				2EC42DDF286B912800EFA90C /* Main.storyboard */,
+				2EC42E0D286CAD7100EFA90C /* PoiretOne-Regular.ttf */,
 				2EC42DE5286B912A00EFA90C /* Assets.xcassets */,
 				2EC42DE7286B912A00EFA90C /* LaunchScreen.storyboard */,
 				2EC42DEA286B912A00EFA90C /* Info.plist */,
@@ -126,6 +129,7 @@
 			children = (
 				2EC42DFD286B912B00EFA90C /* moodwaveUITests.swift */,
 				2EC42DFF286B912B00EFA90C /* moodwaveUITestsLaunchTests.swift */,
+				2EC42E0C286CAD6D00EFA90C /* PoiretOne-Regular.ttf */,
 			);
 			path = moodwaveUITests;
 			sourceTree = "<group>";
