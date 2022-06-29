@@ -38,7 +38,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.69168424610000001" green="0.53899687529999996" blue="0.50367498399999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="ok!">
+                                <buttonConfiguration key="configuration" style="filled" title="ok">
                                     <color key="baseBackgroundColor" red="0.69168424610000001" green="0.53899687529999996" blue="0.50367498399999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -83,13 +83,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wave.3.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="3f3-uv-WQV">
-                                <rect key="frame" x="294" y="168.5" width="139" height="99"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wave.3.left" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="wvJ-PO-GXb">
+                                <rect key="frame" x="-20" y="168.5" width="139" height="99"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="tertiarySystemBackgroundColor"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wave.3.left" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="wvJ-PO-GXb">
-                                <rect key="frame" x="-20" y="168.5" width="139" height="99"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wave.3.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="3f3-uv-WQV">
+                                <rect key="frame" x="290" y="168.5" width="139" height="99"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="tertiarySystemBackgroundColor"/>
                             </imageView>
@@ -110,13 +110,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" suggestions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1K4-Dk-ymS">
-                                <rect key="frame" x="70" y="44" width="274" height="132"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="PoiretOne-Regular" family="Poiret One" pointSize="50"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="   go on a picnic" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5Gk-ik-0I7">
                                 <rect key="frame" x="64" y="176" width="130" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -147,6 +140,13 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="   suggestions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1K4-Dk-ymS">
+                                <rect key="frame" x="39" y="44" width="336" height="141"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="PoiretOne-Regular" family="Poiret One" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ZpP-XX-3VT"/>
                         <color key="backgroundColor" red="0.92670303580000002" green="0.77446907760000006" blue="0.73076719050000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -155,7 +155,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VCn-Bc-SwO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-823.1884057971015" y="-905.35714285714278"/>
+            <point key="canvasLocation" x="-1475" y="-610"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="rsy-ID-LmS">
@@ -179,19 +179,19 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="resource #1"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GNF-G7-dvY">
-                                <rect key="frame" x="68" y="502" width="276" height="69"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.88827586169999995" green="0.63010293250000005" blue="0.38274222610000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="resource #3"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r4r-cr-GmU">
                                 <rect key="frame" x="68" y="366" width="276" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.92335373160000001" green="0.65387952329999999" blue="0.39779919390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="resource #2"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GNF-G7-dvY">
+                                <rect key="frame" x="68" y="502" width="276" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.88827586169999995" green="0.63010293250000005" blue="0.38274222610000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="resource #3"/>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="xWK-lH-5ab"/>
@@ -201,7 +201,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="462-mT-OPZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1716" y="-425"/>
+            <point key="canvasLocation" x="-1475" y="226"/>
         </scene>
         <!--Happy View Controller-->
         <scene sceneID="Ryj-tY-BAX">
@@ -267,8 +267,8 @@
                                     <segue destination="nvp-gj-NyZ" kind="show" id="Wtx-Br-aAG"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sun.haze" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="hM6-zn-5Hm">
-                                <rect key="frame" x="87" y="76" width="240" height="128"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sun.max" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="hM6-zn-5Hm">
+                                <rect key="frame" x="-1" y="110.5" width="167" height="105"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="tertiarySystemBackgroundColor"/>
                             </imageView>
@@ -291,6 +291,16 @@
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bookmark" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="wE2-lF-nQk">
                                 <rect key="frame" x="289" y="524" width="45" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="tertiarySystemBackgroundColor"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="face.smiling" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="DP3-WF-4f3">
+                                <rect key="frame" x="118" y="110.5" width="180" height="104"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="tertiarySystemBackgroundColor"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sun.max" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="3HX-rJ-ONF">
+                                <rect key="frame" x="256" y="111.5" width="167" height="105"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="tertiarySystemBackgroundColor"/>
                             </imageView>
@@ -327,7 +337,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TpY-5Q-v6R" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="921.73913043478262" y="784.82142857142856"/>
+            <point key="canvasLocation" x="922" y="1067"/>
         </scene>
         <!--Sad View Controller-->
         <scene sceneID="5CO-fd-TMz">
@@ -352,7 +362,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EMs-8T-KxU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-630.43478260869574" y="784.82142857142856"/>
+            <point key="canvasLocation" x="-607" y="1068"/>
         </scene>
         <!--Ok View Controller-->
         <scene sceneID="4pl-yA-Jek">
@@ -384,15 +394,16 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lhY-F0-ICH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="921.73913043478262" y="-188.16964285714286"/>
+            <point key="canvasLocation" x="922" y="-188"/>
         </scene>
     </scenes>
     <resources>
         <image name="book" catalog="system" width="128" height="99"/>
         <image name="bookmark" catalog="system" width="112" height="128"/>
         <image name="checkmark.seal" catalog="system" width="128" height="128"/>
+        <image name="face.smiling" catalog="system" width="128" height="121"/>
         <image name="music.quarternote.3" catalog="system" width="128" height="103"/>
-        <image name="sun.haze" catalog="system" width="128" height="119"/>
+        <image name="sun.max" catalog="system" width="128" height="124"/>
         <image name="wave.3.left" catalog="system" width="83" height="128"/>
         <image name="wave.3.right" catalog="system" width="83" height="128"/>
         <systemColor name="systemBackgroundColor">
