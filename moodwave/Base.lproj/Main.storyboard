@@ -26,7 +26,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.69168424610000001" green="0.53899687529999996" blue="0.50367498399999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="happy"/>
+                                <buttonConfiguration key="configuration" style="filled" title="happy">
+                                    <color key="baseBackgroundColor" red="0.69168424610000001" green="0.53899687529999996" blue="0.50367498399999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="s1d-E7-A63" kind="show" id="PXu-t2-JDa"/>
                                 </connections>
@@ -36,7 +38,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.69168424610000001" green="0.53899687529999996" blue="0.50367498399999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="ok!"/>
+                                <buttonConfiguration key="configuration" style="filled" title="ok!">
+                                    <color key="baseBackgroundColor" red="0.69168424610000001" green="0.53899687529999996" blue="0.50367498399999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="E6H-Bq-KYO" kind="show" id="I56-fo-fDn"/>
                                 </connections>
@@ -46,7 +50,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.69168424610000001" green="0.53899687529999996" blue="0.50367498399999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="sad"/>
+                                <buttonConfiguration key="configuration" style="filled" title="sad">
+                                    <color key="baseBackgroundColor" red="0.69168424610000001" green="0.53899687529999996" blue="0.50367498399999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="gwZ-fA-3zz" kind="show" id="Iau-6A-Ooc"/>
                                 </connections>
@@ -56,22 +62,24 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.69168424610000001" green="0.53899687529999996" blue="0.50367498399999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="angry"/>
+                                <buttonConfiguration key="configuration" style="filled" title="angry">
+                                    <color key="baseBackgroundColor" red="0.69168424610000001" green="0.53899687529999996" blue="0.50367498399999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="76j-I3-q4G" kind="show" id="S60-Pi-Szj"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MOODWAVE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="40A-HX-mtH">
-                                <rect key="frame" x="97" y="181" width="221" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="PoiretOne-Regular" family="Poiret One" pointSize="38"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="what is your current" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pxJ-t9-Cce">
                                 <rect key="frame" x="100" y="95" width="245" height="106"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="   MOODWAVE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="40A-HX-mtH">
+                                <rect key="frame" x="53" y="170" width="292" height="104"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="PoiretOne-Regular" family="Poiret One" pointSize="38"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -85,34 +93,128 @@
             <point key="canvasLocation" x="153.62318840579712" y="338.83928571428572"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="Ryj-tY-BAX">
+        <scene sceneID="m3U-rN-PkU">
             <objects>
-                <viewController id="s1d-E7-A63" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="RR6-s6-5ho">
+                <viewController id="1UD-Ko-w1A" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="W5S-PO-JjH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="happy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2S7-hF-RF1">
-                                <rect key="frame" x="140" y="278" width="47" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="suggestions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tt5-SK-s6P">
+                                <rect key="frame" x="161" y="377" width="93" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="2lf-qd-hnh"/>
+                        <viewLayoutGuide key="safeArea" id="ZpP-XX-3VT"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="lca-qb-eQD"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VCn-Bc-SwO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-823.1884057971015" y="-905.35714285714278"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="rsy-ID-LmS">
+            <objects>
+                <viewController id="nvp-gj-NyZ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cIw-sK-BYb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="resources" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ido-ah-4cq">
+                                <rect key="frame" x="169" y="411" width="76" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="xWK-lH-5ab"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="zS9-0Z-NTA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="462-mT-OPZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1716" y="-425"/>
+        </scene>
+        <!--Happy View Controller-->
+        <scene sceneID="Ryj-tY-BAX">
+            <objects>
+                <viewController id="s1d-E7-A63" customClass="HappyViewController" customModule="moodwave" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RR6-s6-5ho">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="happy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2S7-hF-RF1">
+                                <rect key="frame" x="184" y="240" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="PoiretOne-Regular" family="Poiret One" pointSize="0.0"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hve-gd-ehv">
+                                <rect key="frame" x="82" y="204" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="PoiretOne-Regular" family="Poiret One" pointSize="38"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BHt-CN-9Xo">
+                                <rect key="frame" x="69" y="318" width="276" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.97162500839999999" green="0.72355496180000001" blue="0.74294366570000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="happy playlist"/>
+                                <connections>
+                                    <action selector="happyPlaylist:" destination="s1d-E7-A63" eventType="touchUpInside" id="uMD-8E-sX2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jah-Nf-jWH">
+                                <rect key="frame" x="69" y="420" width="276" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.97162500839999999" green="0.72355496180000001" blue="0.74294366570000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="suggestions"/>
+                                <connections>
+                                    <segue destination="1UD-Ko-w1A" kind="show" id="I9U-Qa-TJZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Bk-l9-ily">
+                                <rect key="frame" x="69" y="518" width="276" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.97162500839999999" green="0.72355496180000001" blue="0.74294366570000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="resources"/>
+                                <connections>
+                                    <segue destination="nvp-gj-NyZ" kind="show" id="Wtx-Br-aAG"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="    HAPPY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w2d-lg-7XG">
+                                <rect key="frame" x="71" y="178" width="274" height="132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="PoiretOne-Regular" family="Poiret One" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="2lf-qd-hnh"/>
+                        <color key="backgroundColor" red="0.69165009259999999" green="0.53510189060000002" blue="0.49973422290000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="9Gm-Dm-RrV"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hpI-x0-0Mg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-628" y="-188"/>
+            <point key="canvasLocation" x="-607.24637681159425" y="-188.16964285714286"/>
         </scene>
-        <!--View Controller-->
+        <!--Angry View Controller-->
         <scene sceneID="ZXL-ai-fYB">
             <objects>
-                <viewController id="76j-I3-q4G" sceneMemberID="viewController">
+                <viewController id="76j-I3-q4G" customClass="AngryViewController" customModule="moodwave" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ylg-DP-EQw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -134,10 +236,10 @@
             </objects>
             <point key="canvasLocation" x="921.73913043478262" y="784.82142857142856"/>
         </scene>
-        <!--View Controller-->
+        <!--Sad View Controller-->
         <scene sceneID="5CO-fd-TMz">
             <objects>
-                <viewController id="gwZ-fA-3zz" sceneMemberID="viewController">
+                <viewController id="gwZ-fA-3zz" customClass="SadViewController" customModule="moodwave" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qk9-oA-dpx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -159,16 +261,16 @@
             </objects>
             <point key="canvasLocation" x="-630.43478260869574" y="784.82142857142856"/>
         </scene>
-        <!--View Controller-->
+        <!--Ok View Controller-->
         <scene sceneID="4pl-yA-Jek">
             <objects>
-                <viewController id="E6H-Bq-KYO" sceneMemberID="viewController">
+                <viewController id="E6H-Bq-KYO" customClass="OkViewController" customModule="moodwave" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="buh-YG-Kn1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="angry " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j6D-uY-aur">
-                                <rect key="frame" x="168" y="151" width="48" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j6D-uY-aur">
+                                <rect key="frame" x="168" y="151" width="0.0" height="0.0"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
