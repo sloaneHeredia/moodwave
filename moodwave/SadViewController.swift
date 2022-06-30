@@ -16,7 +16,7 @@ class SadViewController: UIViewController {
     }
     
     @IBAction func sadPlaylist(_ sender: UIButton) {
-        if let url=URL(string: "https://open.spotify.com/playlist/3ZzPpmnblgFnFdJHd0wV77?si=bpl9Be3DQzadJEIdaxeUlw") {
+        if let url=URL(string: "https://open.spotify.com/playlist/3ZzPpmnblgFnFdJHd0wV77?si=894aeb8c3b0f4ecc") {
             UIApplication.shared.open(url,options:[:], completionHandler: nil)
         }
     }
