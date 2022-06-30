@@ -16,14 +16,11 @@ class AngryViewController: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func angryPlaylish(_ sender: UIButton) {
+        if let url=URL(string: "https://open.spotify.com/playlist/43jLAg13pU7fgpLK7f5Xw0?si=fc49a34ab7484a78") {
+            UIApplication.shared.open(url,options:[:], completionHandler: nil)
     }
-    */
+    }
+    
 
 }

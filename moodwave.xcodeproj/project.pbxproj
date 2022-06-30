@@ -10,6 +10,7 @@
 		2E96D180286DF66700E43B77 /* happyResourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E96D17F286DF66700E43B77 /* happyResourceViewController.swift */; };
 		2E96D183286E07E400E43B77 /* Oxygen-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E96D182286E07E400E43B77 /* Oxygen-Light.ttf */; };
 		2E96D184286E07FE00E43B77 /* PoiretOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2EC42E0D286CAD7100EFA90C /* PoiretOne-Regular.ttf */; };
+		2E96D186286E226B00E43B77 /* Untitled_Artwork.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E96D185286E226B00E43B77 /* Untitled_Artwork.gif */; };
 		2EC42DDA286B912800EFA90C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC42DD9286B912800EFA90C /* AppDelegate.swift */; };
 		2EC42DDC286B912800EFA90C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC42DDB286B912800EFA90C /* SceneDelegate.swift */; };
 		2EC42DDE286B912800EFA90C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC42DDD286B912800EFA90C /* ViewController.swift */; };
@@ -47,6 +48,7 @@
 /* Begin PBXFileReference section */
 		2E96D17F286DF66700E43B77 /* happyResourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = happyResourceViewController.swift; sourceTree = "<group>"; };
 		2E96D182286E07E400E43B77 /* Oxygen-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Oxygen-Light.ttf"; path = "../../../Desktop/oxygen-2/Oxygen-Light.ttf"; sourceTree = "<group>"; };
+		2E96D185286E226B00E43B77 /* Untitled_Artwork.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Untitled_Artwork.gif; path = ../../../Downloads/Untitled_Artwork.gif; sourceTree = "<group>"; };
 		2EC42DD6286B912800EFA90C /* moodwave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moodwave.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EC42DD9286B912800EFA90C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EC42DDB286B912800EFA90C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				2E96D182286E07E400E43B77 /* Oxygen-Light.ttf */,
 				2EC42DE5286B912A00EFA90C /* Assets.xcassets */,
 				2EC42DE7286B912A00EFA90C /* LaunchScreen.storyboard */,
+				2E96D185286E226B00E43B77 /* Untitled_Artwork.gif */,
 				2EC42DEA286B912A00EFA90C /* Info.plist */,
 				2EC42DE2286B912800EFA90C /* moodwave.xcdatamodeld */,
 			);
@@ -258,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E96D186286E226B00E43B77 /* Untitled_Artwork.gif in Resources */,
 				2EC42DE9286B912A00EFA90C /* LaunchScreen.storyboard in Resources */,
 				2EC42DE6286B912A00EFA90C /* Assets.xcassets in Resources */,
 				2EC42DE1286B912800EFA90C /* Main.storyboard in Resources */,
