@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2E96D180286DF66700E43B77 /* happyResourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E96D17F286DF66700E43B77 /* happyResourceViewController.swift */; };
+		2E96D183286E07E400E43B77 /* Oxygen-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E96D182286E07E400E43B77 /* Oxygen-Light.ttf */; };
+		2E96D184286E07FE00E43B77 /* PoiretOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2EC42E0D286CAD7100EFA90C /* PoiretOne-Regular.ttf */; };
 		2EC42DDA286B912800EFA90C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC42DD9286B912800EFA90C /* AppDelegate.swift */; };
 		2EC42DDC286B912800EFA90C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC42DDB286B912800EFA90C /* SceneDelegate.swift */; };
 		2EC42DDE286B912800EFA90C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC42DDD286B912800EFA90C /* ViewController.swift */; };
@@ -43,6 +45,7 @@
 
 /* Begin PBXFileReference section */
 		2E96D17F286DF66700E43B77 /* happyResourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = happyResourceViewController.swift; sourceTree = "<group>"; };
+		2E96D182286E07E400E43B77 /* Oxygen-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Oxygen-Light.ttf"; path = "../../../Desktop/oxygen-2/Oxygen-Light.ttf"; sourceTree = "<group>"; };
 		2EC42DD6286B912800EFA90C /* moodwave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moodwave.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EC42DD9286B912800EFA90C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EC42DDB286B912800EFA90C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,7 +60,6 @@
 		2EC42DF9286B912B00EFA90C /* moodwaveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moodwaveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EC42DFD286B912B00EFA90C /* moodwaveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moodwaveUITests.swift; sourceTree = "<group>"; };
 		2EC42DFF286B912B00EFA90C /* moodwaveUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moodwaveUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		2EC42E0C286CAD6D00EFA90C /* PoiretOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PoiretOne-Regular.ttf"; path = "../../../poiret-one/PoiretOne-Regular.ttf"; sourceTree = "<group>"; };
 		2EC42E0D286CAD7100EFA90C /* PoiretOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PoiretOne-Regular.ttf"; sourceTree = "<group>"; };
 		7D2E60B8286CD29E00A76654 /* HappyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyViewController.swift; sourceTree = "<group>"; };
 		7D2E60BA286CD2C400A76654 /* AngryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngryViewController.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				7D2E60BE286CD2F300A76654 /* OkViewController.swift */,
 				2EC42DDF286B912800EFA90C /* Main.storyboard */,
 				2EC42E0D286CAD7100EFA90C /* PoiretOne-Regular.ttf */,
+				2E96D182286E07E400E43B77 /* Oxygen-Light.ttf */,
 				2EC42DE5286B912A00EFA90C /* Assets.xcassets */,
 				2EC42DE7286B912A00EFA90C /* LaunchScreen.storyboard */,
 				2EC42DEA286B912A00EFA90C /* Info.plist */,
@@ -144,7 +147,6 @@
 			children = (
 				2EC42DFD286B912B00EFA90C /* moodwaveUITests.swift */,
 				2EC42DFF286B912B00EFA90C /* moodwaveUITestsLaunchTests.swift */,
-				2EC42E0C286CAD6D00EFA90C /* PoiretOne-Regular.ttf */,
 			);
 			path = moodwaveUITests;
 			sourceTree = "<group>";
@@ -256,6 +258,8 @@
 				2EC42DE9286B912A00EFA90C /* LaunchScreen.storyboard in Resources */,
 				2EC42DE6286B912A00EFA90C /* Assets.xcassets in Resources */,
 				2EC42DE1286B912800EFA90C /* Main.storyboard in Resources */,
+				2E96D184286E07FE00E43B77 /* PoiretOne-Regular.ttf in Resources */,
+				2E96D183286E07E400E43B77 /* Oxygen-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

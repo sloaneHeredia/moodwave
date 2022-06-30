@@ -8,6 +8,9 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
+        <array key="Oxygen-Light.ttf">
+            <string>Oxygen-Light</string>
+        </array>
         <array key="PoiretOne-Regular.ttf">
             <string>PoiretOne-Regular</string>
         </array>
@@ -172,6 +175,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="s6R-Ep-s3J">
+                                <rect key="frame" x="50" y="199" width="291" height="502"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">write a list of 10 things you are grateful for today
+
+write out a dream vacation and agenda...
+
+dont forget to screenshot </string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="Oxygen-Light" family="Oxygen" pointSize="0.0"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="wai-uK-wf5"/>
                         <color key="backgroundColor" red="0.99338203670000003" green="0.95565086600000004" blue="0.85369330639999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -728,6 +744,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="make a list of everything going wrong... then make a list of everything going right... start typing here!" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="OGj-hf-4E8">
+                                <rect key="frame" x="62" y="273" width="291" height="502"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="Oxygen-Light" family="Oxygen" pointSize="0.0"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="wU7-EF-S9D"/>
                         <color key="backgroundColor" red="1" green="0.50428646768215124" blue="0.49330708119423317" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -736,7 +760,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SFx-EF-ubf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2375" y="1783"/>
+            <point key="canvasLocation" x="2373.913043478261" y="1782.5892857142856"/>
         </scene>
         <!--Sad View Controller-->
         <scene sceneID="5CO-fd-TMz">

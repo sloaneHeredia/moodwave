@@ -4,7 +4,8 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
-		<string>PoiretOne-Regular</string>
+		<string>Oxygen-Light.ttf</string>
+		<string>PoiretOne-Regular.ttf</string>
 	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
