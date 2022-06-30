@@ -24,6 +24,7 @@
 		7D2E60BB286CD2C400A76654 /* AngryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E60BA286CD2C400A76654 /* AngryViewController.swift */; };
 		7D2E60BD286CD2E200A76654 /* SadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E60BC286CD2E200A76654 /* SadViewController.swift */; };
 		7D2E60BF286CD2F300A76654 /* OkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E60BE286CD2F300A76654 /* OkViewController.swift */; };
+		BCD7C1E4286E0B640003B9D7 /* okRsourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD7C1E3286E0B640003B9D7 /* okRsourcesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		7D2E60BA286CD2C400A76654 /* AngryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngryViewController.swift; sourceTree = "<group>"; };
 		7D2E60BC286CD2E200A76654 /* SadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SadViewController.swift; sourceTree = "<group>"; };
 		7D2E60BE286CD2F300A76654 /* OkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OkViewController.swift; sourceTree = "<group>"; };
+		BCD7C1E3286E0B640003B9D7 /* okRsourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = okRsourcesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 				7D2E60BA286CD2C400A76654 /* AngryViewController.swift */,
 				7D2E60BC286CD2E200A76654 /* SadViewController.swift */,
 				7D2E60BE286CD2F300A76654 /* OkViewController.swift */,
+				BCD7C1E3286E0B640003B9D7 /* okRsourcesViewController.swift */,
 				2EC42DDF286B912800EFA90C /* Main.storyboard */,
 				2EC42E0D286CAD7100EFA90C /* PoiretOne-Regular.ttf */,
 				2E96D182286E07E400E43B77 /* Oxygen-Light.ttf */,
@@ -284,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCD7C1E4286E0B640003B9D7 /* okRsourcesViewController.swift in Sources */,
 				7D2E60BB286CD2C400A76654 /* AngryViewController.swift in Sources */,
 				2EC42DDE286B912800EFA90C /* ViewController.swift in Sources */,
 				7D2E60BF286CD2F300A76654 /* OkViewController.swift in Sources */,

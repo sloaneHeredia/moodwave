@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -914,7 +914,7 @@ dont forget to screenshot </string>
                                     <color key="baseBackgroundColor" red="0.14936193823814392" green="0.31780189275741577" blue="0.070140056312084198" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="okPlaylist:" destination="E6H-Bq-KYO" eventType="touchUpInside" id="zN5-um-ofm"/>
+                                    <action selector="okPlaylist:" destination="E6H-Bq-KYO" eventType="touchUpInside" id="cIp-wg-dZK"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RYo-jG-0Jt">
@@ -988,10 +988,10 @@ dont forget to screenshot </string>
             </objects>
             <point key="canvasLocation" x="921.73913043478262" y="-188.16964285714286"/>
         </scene>
-        <!--View Controller-->
+        <!--Ok Rsources View Controller-->
         <scene sceneID="K4L-wp-l4H">
             <objects>
-                <viewController id="Sw9-Qu-95G" sceneMemberID="viewController">
+                <viewController id="Sw9-Qu-95G" customClass="okRsourcesViewController" customModule="moodwave" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="l2x-4e-xYQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1019,6 +1019,10 @@ dont forget to screenshot </string>
                                 <buttonConfiguration key="configuration" style="filled" title="resource 1">
                                     <color key="baseBackgroundColor" red="1" green="0.94973417618909539" blue="0.49537394421994785" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="okResource1:" destination="Sw9-Qu-95G" eventType="touchUpInside" id="XT0-pf-FlB"/>
+                                    <action selector="resource1Ok:" destination="XH3-cJ-ldv" eventType="touchUpInside" id="YU4-oW-o0p"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="resources" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="syZ-2T-2JE">
                                 <rect key="frame" x="106" y="69" width="218" height="181"/>
@@ -1034,6 +1038,7 @@ dont forget to screenshot </string>
                     <navigationItem key="navigationItem" id="Ub1-k5-HGd"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LQS-zq-Iea" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="XH3-cJ-ldv" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1638" y="-901"/>
         </scene>
