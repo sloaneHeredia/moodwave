@@ -15,7 +15,12 @@ class SadViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func happyPlaylist(_ sender: UIButton) {
+        if let url=URL(string: "") {
+            UIApplication.shared.open(url,options:[:], completionHandler: nil)
+        }
+    }
+    
     /*
     // MARK: - Navigation
 
