@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E96D180286DF66700E43B77 /* happyResourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E96D17F286DF66700E43B77 /* happyResourceViewController.swift */; };
 		2EC42DDA286B912800EFA90C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC42DD9286B912800EFA90C /* AppDelegate.swift */; };
 		2EC42DDC286B912800EFA90C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC42DDB286B912800EFA90C /* SceneDelegate.swift */; };
 		2EC42DDE286B912800EFA90C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC42DDD286B912800EFA90C /* ViewController.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E96D17F286DF66700E43B77 /* happyResourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = happyResourceViewController.swift; sourceTree = "<group>"; };
 		2EC42DD6286B912800EFA90C /* moodwave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moodwave.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EC42DD9286B912800EFA90C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EC42DDB286B912800EFA90C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				2EC42DD9286B912800EFA90C /* AppDelegate.swift */,
 				2EC42DDB286B912800EFA90C /* SceneDelegate.swift */,
 				2EC42DDD286B912800EFA90C /* ViewController.swift */,
+				2E96D17F286DF66700E43B77 /* happyResourceViewController.swift */,
 				7D2E60B8286CD29E00A76654 /* HappyViewController.swift */,
 				7D2E60BA286CD2C400A76654 /* AngryViewController.swift */,
 				7D2E60BC286CD2E200A76654 /* SadViewController.swift */,
@@ -282,6 +285,7 @@
 				7D2E60BF286CD2F300A76654 /* OkViewController.swift in Sources */,
 				7D2E60B9286CD29E00A76654 /* HappyViewController.swift in Sources */,
 				2EC42DDA286B912800EFA90C /* AppDelegate.swift in Sources */,
+				2E96D180286DF66700E43B77 /* happyResourceViewController.swift in Sources */,
 				2EC42DDC286B912800EFA90C /* SceneDelegate.swift in Sources */,
 				7D2E60BD286CD2E200A76654 /* SadViewController.swift in Sources */,
 				2EC42DE4286B912800EFA90C /* moodwave.xcdatamodeld in Sources */,
