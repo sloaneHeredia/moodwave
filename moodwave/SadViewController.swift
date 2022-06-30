@@ -2,7 +2,7 @@
 //  SadViewController.swift
 //  moodwave
 //
-//  Created by Hanna Chan on 6/29/22.
+//  Created by Keira Wong on 6/30/22.
 //
 
 import UIKit
@@ -15,12 +15,12 @@ class SadViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func happyPlaylist(_ sender: UIButton) {
-        if let url=URL(string: "") {
+    @IBAction func sadPlaylist(_ sender: UIButton) {
+        if let url=URL(string: "https://open.spotify.com/playlist/3ZzPpmnblgFnFdJHd0wV77?si=bpl9Be3DQzadJEIdaxeUlw") {
             UIApplication.shared.open(url,options:[:], completionHandler: nil)
         }
     }
-    
+     
     /*
     // MARK: - Navigation
 
