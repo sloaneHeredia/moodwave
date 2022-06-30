@@ -15,12 +15,13 @@ class SadViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func sadPlaylist(_ sender: UIButton) {
-        if let url=URL(string: "https://open.spotify.com/playlist/3ZzPpmnblgFnFdJHd0wV77?si=894aeb8c3b0f4ecc") {
+    
+    @IBAction func sadPlaylist(_ sender: Any) {
+        if let url=URL(string: "https://open.spotify.com/playlist/3ZzPpmnblgFnFdJHd0wV77?si=cc3741c45bcd4f3f") {
             UIApplication.shared.open(url,options:[:], completionHandler: nil)
-        }
     }
-     
+}
+    
     /*
     // MARK: - Navigation
 
