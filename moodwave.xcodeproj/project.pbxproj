@@ -20,6 +20,7 @@
 		2EC42DF4286B912B00EFA90C /* moodwaveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC42DF3286B912B00EFA90C /* moodwaveTests.swift */; };
 		2EC42DFE286B912B00EFA90C /* moodwaveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC42DFD286B912B00EFA90C /* moodwaveUITests.swift */; };
 		2EC42E00286B912B00EFA90C /* moodwaveUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC42DFF286B912B00EFA90C /* moodwaveUITestsLaunchTests.swift */; };
+		2EF923A1286F4713006400ED /* Oxygen-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2EF923A0286F4710006400ED /* Oxygen-Light.ttf */; };
 		7D2E60B9286CD29E00A76654 /* HappyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E60B8286CD29E00A76654 /* HappyViewController.swift */; };
 		7D2E60BB286CD2C400A76654 /* AngryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E60BA286CD2C400A76654 /* AngryViewController.swift */; };
 		7D2E60BD286CD2E200A76654 /* SadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E60BC286CD2E200A76654 /* SadViewController.swift */; };
@@ -62,6 +63,7 @@
 		2EC42DFD286B912B00EFA90C /* moodwaveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moodwaveUITests.swift; sourceTree = "<group>"; };
 		2EC42DFF286B912B00EFA90C /* moodwaveUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moodwaveUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2EC42E0D286CAD7100EFA90C /* PoiretOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PoiretOne-Regular.ttf"; sourceTree = "<group>"; };
+		2EF923A0286F4710006400ED /* Oxygen-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Oxygen-Light.ttf"; path = "../../../Desktop/oxygen-2/Oxygen-Light.ttf"; sourceTree = "<group>"; };
 		7D2E60B8286CD29E00A76654 /* HappyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyViewController.swift; sourceTree = "<group>"; };
 		7D2E60BA286CD2C400A76654 /* AngryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngryViewController.swift; sourceTree = "<group>"; };
 		7D2E60BC286CD2E200A76654 /* SadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SadViewController.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				BCD7C1E3286E0B640003B9D7 /* okRsourcesViewController.swift */,
 				2EC42DDF286B912800EFA90C /* Main.storyboard */,
 				2EC42E0D286CAD7100EFA90C /* PoiretOne-Regular.ttf */,
+				2EF923A0286F4710006400ED /* Oxygen-Light.ttf */,
 				2EC42DE5286B912A00EFA90C /* Assets.xcassets */,
 				2EC42DE7286B912A00EFA90C /* LaunchScreen.storyboard */,
 				2EC42DEA286B912A00EFA90C /* Info.plist */,
@@ -262,6 +265,7 @@
 				2EC42DE6286B912A00EFA90C /* Assets.xcassets in Resources */,
 				2EC42DE1286B912800EFA90C /* Main.storyboard in Resources */,
 				2E96D184286E07FE00E43B77 /* PoiretOne-Regular.ttf in Resources */,
+				2EF923A1286F4713006400ED /* Oxygen-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
