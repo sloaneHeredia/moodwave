@@ -94,7 +94,7 @@
                                 <color key="tintColor" systemColor="tertiarySystemBackgroundColor"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" what is your current" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pxJ-t9-Cce">
-                                <rect key="frame" x="95" y="89" width="225" height="106"/>
+                                <rect key="frame" x="86" y="89" width="242" height="106"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Oxygen-Light" family="Oxygen" pointSize="25"/>
                                 <nil key="textColor"/>
@@ -639,6 +639,7 @@
                                     <action selector="happyChem:" destination="nVf-v7-Jxl" eventType="touchUpInside" id="uBX-Px-ttr"/>
                                     <action selector="happyChemButton:" destination="nVf-v7-Jxl" eventType="touchUpInside" id="MaZ-yB-Biv"/>
                                     <action selector="happyChemButton:" destination="nvp-gj-NyZ" eventType="touchUpInside" id="WJK-VZ-qyM"/>
+                                    <action selector="sadResourceOneButton:" destination="Z1r-Co-cLU" eventType="touchUpInside" id="flX-dE-c7Z"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bWC-z2-nhT">
@@ -652,6 +653,7 @@
                                     <action selector="happyChem:" destination="nVf-v7-Jxl" eventType="touchUpInside" id="MF5-OK-Fwq"/>
                                     <action selector="happyChemButton:" destination="nVf-v7-Jxl" eventType="touchUpInside" id="4Xd-le-Lmz"/>
                                     <action selector="happyChemButton:" destination="nvp-gj-NyZ" eventType="touchUpInside" id="u0L-Fs-NdD"/>
+                                    <action selector="sadResourceTwoButton:" destination="Z1r-Co-cLU" eventType="touchUpInside" id="krs-N1-iyL"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g52-i6-EQO">
@@ -665,6 +667,7 @@
                                     <action selector="happyChem:" destination="nVf-v7-Jxl" eventType="touchUpInside" id="Wo8-N2-pet"/>
                                     <action selector="happyChemButton:" destination="nVf-v7-Jxl" eventType="touchUpInside" id="ivC-FN-0ta"/>
                                     <action selector="happyChemButton:" destination="nvp-gj-NyZ" eventType="touchUpInside" id="xcu-eO-vA5"/>
+                                    <action selector="sadResourceThreeButton:" destination="Z1r-Co-cLU" eventType="touchUpInside" id="p1Z-ci-7Jy"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -674,6 +677,7 @@
                     <navigationItem key="navigationItem" id="jX0-md-CRl"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CKE-bd-hDd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="Z1r-Co-cLU" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="-1312" y="1779"/>
         </scene>
