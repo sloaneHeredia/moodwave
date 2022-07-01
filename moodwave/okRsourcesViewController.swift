@@ -22,14 +22,25 @@ class okRsourcesViewController: UIViewController {
                 UIApplication.shared.open(url,options:[:], completionHandler: nil)
             }
     }
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    
+    
+    
+    @IBAction func res2button(_ sender: UIButton) {
+        
+            if let url=URL(string: "https://open.spotify.com/album/23Yei3gBIAJmEizwOJzRvu?si=X0t8xnnkStu-UGpbgGQn3g&nd=1") {
+                UIApplication.shared.open(url,options:[:], completionHandler: nil)
+            }
     }
-    */
-
+    
+    
+    
+    @IBAction func watch3button(_ sender: UIButton) {
+        if let url=URL(string: "https://www.youtube.com/watch?v=h-rRgpPbR5w") {
+            UIApplication.shared.open(url,options:[:], completionHandler: nil)
+        }
+        
+    }
+    
+    
 }

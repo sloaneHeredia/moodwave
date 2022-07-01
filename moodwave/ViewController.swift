@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         content.title = "moodwave"
         content.body = "remember to do your daily check in!"
         
-        let date = Date().addingTimeInterval(15)
+        let date = Date().addingTimeInterval(8)
         
         let dateComponents = Calendar.current.dateComponents([.year, .month, .day, .hour, .minute, .second], from: date)
         

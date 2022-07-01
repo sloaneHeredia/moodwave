@@ -21,6 +21,11 @@
 		2EC42DFE286B912B00EFA90C /* moodwaveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC42DFD286B912B00EFA90C /* moodwaveUITests.swift */; };
 		2EC42E00286B912B00EFA90C /* moodwaveUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC42DFF286B912B00EFA90C /* moodwaveUITestsLaunchTests.swift */; };
 		2EF923A1286F4713006400ED /* Oxygen-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2EF923A0286F4710006400ED /* Oxygen-Light.ttf */; };
+		2EF923A3286F5662006400ED /* angryResourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF923A2286F5661006400ED /* angryResourceViewController.swift */; };
+		2EF923A5286F5854006400ED /* Frame 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EF923A4286F5854006400ED /* Frame 2.png */; };
+		2EF923A7286F59C0006400ED /* Screen Shot 2022-07-01 at 11.34.35 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EF923A6286F59C0006400ED /* Screen Shot 2022-07-01 at 11.34.35 AM.png */; };
+		2EF923A9286F59D6006400ED /* Screen Shot 2022-07-01 at 11.34.35 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EF923A8286F59D6006400ED /* Screen Shot 2022-07-01 at 11.34.35 AM.png */; };
+		2EF923AB286F5A02006400ED /* Screen Shot 2022-07-01 at 11.36.11 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EF923AA286F5A01006400ED /* Screen Shot 2022-07-01 at 11.36.11 AM.png */; };
 		7D2E60B9286CD29E00A76654 /* HappyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E60B8286CD29E00A76654 /* HappyViewController.swift */; };
 		7D2E60BB286CD2C400A76654 /* AngryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E60BA286CD2C400A76654 /* AngryViewController.swift */; };
 		7D2E60BD286CD2E200A76654 /* SadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2E60BC286CD2E200A76654 /* SadViewController.swift */; };
@@ -64,6 +69,11 @@
 		2EC42DFF286B912B00EFA90C /* moodwaveUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moodwaveUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2EC42E0D286CAD7100EFA90C /* PoiretOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PoiretOne-Regular.ttf"; sourceTree = "<group>"; };
 		2EF923A0286F4710006400ED /* Oxygen-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Oxygen-Light.ttf"; path = "../../../Desktop/oxygen-2/Oxygen-Light.ttf"; sourceTree = "<group>"; };
+		2EF923A2286F5661006400ED /* angryResourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = angryResourceViewController.swift; sourceTree = "<group>"; };
+		2EF923A4286F5854006400ED /* Frame 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Frame 2.png"; path = "../../../Downloads/moodwave icon-2/Frame 2.png"; sourceTree = "<group>"; };
+		2EF923A6286F59C0006400ED /* Screen Shot 2022-07-01 at 11.34.35 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2022-07-01 at 11.34.35 AM.png"; path = "../../../Desktop/Screen Shot 2022-07-01 at 11.34.35 AM.png"; sourceTree = "<group>"; };
+		2EF923A8286F59D6006400ED /* Screen Shot 2022-07-01 at 11.34.35 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2022-07-01 at 11.34.35 AM.png"; path = "../../../Desktop/Screen Shot 2022-07-01 at 11.34.35 AM.png"; sourceTree = "<group>"; };
+		2EF923AA286F5A01006400ED /* Screen Shot 2022-07-01 at 11.36.11 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2022-07-01 at 11.36.11 AM.png"; path = "../../../../../var/folders/7n/chl5z2v914z4grcr1_1d880m0000gp/T/TemporaryItems/NSIRD_screencaptureui_wibhqP/Screen Shot 2022-07-01 at 11.36.11 AM.png"; sourceTree = "<group>"; };
 		7D2E60B8286CD29E00A76654 /* HappyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyViewController.swift; sourceTree = "<group>"; };
 		7D2E60BA286CD2C400A76654 /* AngryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngryViewController.swift; sourceTree = "<group>"; };
 		7D2E60BC286CD2E200A76654 /* SadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SadViewController.swift; sourceTree = "<group>"; };
@@ -133,9 +143,14 @@
 				2EC42E0D286CAD7100EFA90C /* PoiretOne-Regular.ttf */,
 				2EF923A0286F4710006400ED /* Oxygen-Light.ttf */,
 				2EC42DE5286B912A00EFA90C /* Assets.xcassets */,
+				2EF923A6286F59C0006400ED /* Screen Shot 2022-07-01 at 11.34.35 AM.png */,
 				2EC42DE7286B912A00EFA90C /* LaunchScreen.storyboard */,
 				2EC42DEA286B912A00EFA90C /* Info.plist */,
+				2EF923A4286F5854006400ED /* Frame 2.png */,
 				2EC42DE2286B912800EFA90C /* moodwave.xcdatamodeld */,
+				2EF923A8286F59D6006400ED /* Screen Shot 2022-07-01 at 11.34.35 AM.png */,
+				2EF923AA286F5A01006400ED /* Screen Shot 2022-07-01 at 11.36.11 AM.png */,
+				2EF923A2286F5661006400ED /* angryResourceViewController.swift */,
 			);
 			path = moodwave;
 			sourceTree = "<group>";
@@ -263,7 +278,11 @@
 			files = (
 				2EC42DE9286B912A00EFA90C /* LaunchScreen.storyboard in Resources */,
 				2EC42DE6286B912A00EFA90C /* Assets.xcassets in Resources */,
+				2EF923A9286F59D6006400ED /* Screen Shot 2022-07-01 at 11.34.35 AM.png in Resources */,
 				2EC42DE1286B912800EFA90C /* Main.storyboard in Resources */,
+				2EF923A7286F59C0006400ED /* Screen Shot 2022-07-01 at 11.34.35 AM.png in Resources */,
+				2EF923AB286F5A02006400ED /* Screen Shot 2022-07-01 at 11.36.11 AM.png in Resources */,
+				2EF923A5286F5854006400ED /* Frame 2.png in Resources */,
 				2E96D184286E07FE00E43B77 /* PoiretOne-Regular.ttf in Resources */,
 				2EF923A1286F4713006400ED /* Oxygen-Light.ttf in Resources */,
 			);
@@ -298,6 +317,7 @@
 				22497759286EC4F300A76493 /* sadResourceViewController.swift in Sources */,
 				2EC42DDA286B912800EFA90C /* AppDelegate.swift in Sources */,
 				2E96D180286DF66700E43B77 /* happyResourceViewController.swift in Sources */,
+				2EF923A3286F5662006400ED /* angryResourceViewController.swift in Sources */,
 				2EC42DDC286B912800EFA90C /* SceneDelegate.swift in Sources */,
 				7D2E60BD286CD2E200A76654 /* SadViewController.swift in Sources */,
 				2EC42DE4286B912800EFA90C /* moodwave.xcdatamodeld in Sources */,

@@ -34,6 +34,13 @@ class sadResourceViewController: UIViewController {
             UIApplication.shared.open(url,options:[:], completionHandler: nil)
         }
     }
+    
+    
+   
+   
+    
+    
+
 }
     
         

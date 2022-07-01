@@ -608,10 +608,10 @@
             </objects>
             <point key="canvasLocation" x="-2030.4347826086957" y="1778.5714285714284"/>
         </scene>
-        <!--View Controller-->
+        <!--Sad Resource View Controller-->
         <scene sceneID="pAj-mg-u2U">
             <objects>
-                <viewController id="yTh-jJ-NoJ" sceneMemberID="viewController">
+                <viewController id="yTh-jJ-NoJ" customClass="sadResourceViewController" customModule="moodwave" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aNV-kk-IC3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -634,7 +634,10 @@
                                     <action selector="happyChem:" destination="nVf-v7-Jxl" eventType="touchUpInside" id="uBX-Px-ttr"/>
                                     <action selector="happyChemButton:" destination="nVf-v7-Jxl" eventType="touchUpInside" id="MaZ-yB-Biv"/>
                                     <action selector="happyChemButton:" destination="nvp-gj-NyZ" eventType="touchUpInside" id="WJK-VZ-qyM"/>
+                                    <action selector="link1button:" destination="Z1r-Co-cLU" eventType="touchUpInside" id="Xag-6a-tap"/>
+                                    <action selector="link1button:" destination="yTh-jJ-NoJ" eventType="touchUpInside" id="q6Z-fJ-EmL"/>
                                     <action selector="sadResourceOneButton:" destination="Z1r-Co-cLU" eventType="touchUpInside" id="flX-dE-c7Z"/>
+                                    <action selector="sadResourceOneButton:" destination="yTh-jJ-NoJ" eventType="touchUpInside" id="xZv-dp-m0i"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bWC-z2-nhT">
@@ -648,6 +651,7 @@
                                     <action selector="happyChem:" destination="nVf-v7-Jxl" eventType="touchUpInside" id="MF5-OK-Fwq"/>
                                     <action selector="happyChemButton:" destination="nVf-v7-Jxl" eventType="touchUpInside" id="4Xd-le-Lmz"/>
                                     <action selector="happyChemButton:" destination="nvp-gj-NyZ" eventType="touchUpInside" id="u0L-Fs-NdD"/>
+                                    <action selector="sadResourceTwoButton:" destination="yTh-jJ-NoJ" eventType="touchUpInside" id="1nD-aT-LKv"/>
                                     <action selector="sadResourceTwoButton:" destination="Z1r-Co-cLU" eventType="touchUpInside" id="krs-N1-iyL"/>
                                 </connections>
                             </button>
@@ -662,6 +666,7 @@
                                     <action selector="happyChem:" destination="nVf-v7-Jxl" eventType="touchUpInside" id="Wo8-N2-pet"/>
                                     <action selector="happyChemButton:" destination="nVf-v7-Jxl" eventType="touchUpInside" id="ivC-FN-0ta"/>
                                     <action selector="happyChemButton:" destination="nvp-gj-NyZ" eventType="touchUpInside" id="xcu-eO-vA5"/>
+                                    <action selector="sadResourceThreeButton:" destination="yTh-jJ-NoJ" eventType="touchUpInside" id="Bc1-RR-CKB"/>
                                     <action selector="sadResourceThreeButton:" destination="Z1r-Co-cLU" eventType="touchUpInside" id="p1Z-ci-7Jy"/>
                                 </connections>
                             </button>
@@ -725,7 +730,7 @@
                                     <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text=" screenshot your finished journal to save it!" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="o0d-v8-qsL">
                                         <rect key="frame" x="65" y="780" width="288" height="34"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.97190672160000002" green="0.76898753639999995" blue="0.63542884590000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.47353214030000002" green="0.78538954260000005" blue="0.97313445809999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Oxygen-Light" family="Oxygen" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
@@ -798,10 +803,10 @@
             </objects>
             <point key="canvasLocation" x="921.73913043478262" y="1782.5892857142856"/>
         </scene>
-        <!--View Controller-->
+        <!--Angry Resource View Controller-->
         <scene sceneID="hBy-5m-l24">
             <objects>
-                <viewController id="hVf-ag-AdY" sceneMemberID="viewController">
+                <viewController id="hVf-ag-AdY" customClass="angryResourceViewController" customModule="moodwave" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZA0-c1-ezO">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -818,7 +823,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.87706333400000003" green="0.20358723400000001" blue="0.17186346650000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="resource #1">
+                                <buttonConfiguration key="configuration" style="filled" title="resource #2">
                                     <fontDescription key="titleFontDescription" name="Oxygen-Light" family="Oxygen" pointSize="17"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -826,21 +831,7 @@
                                     <action selector="happyChem:" destination="nVf-v7-Jxl" eventType="touchUpInside" id="rdf-Vl-l8r"/>
                                     <action selector="happyChemButton:" destination="nvp-gj-NyZ" eventType="touchUpInside" id="Txb-x4-Rpy"/>
                                     <action selector="happyChemButton:" destination="nVf-v7-Jxl" eventType="touchUpInside" id="mAW-H7-uvF"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rsi-u7-X1K">
-                                <rect key="frame" x="68" y="529" width="276" height="69"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.87706333400000003" green="0.20358723400000001" blue="0.17186346650000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="resource #1">
-                                    <fontDescription key="titleFontDescription" name="Oxygen-Light" family="Oxygen" pointSize="17"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="chemButton:" destination="nVf-v7-Jxl" eventType="touchUpInside" id="9EH-uy-6wf"/>
-                                    <action selector="happyChem:" destination="nVf-v7-Jxl" eventType="touchUpInside" id="yPm-K1-7Qb"/>
-                                    <action selector="happyChemButton:" destination="nvp-gj-NyZ" eventType="touchUpInside" id="4rQ-xe-sEm"/>
-                                    <action selector="happyChemButton:" destination="nVf-v7-Jxl" eventType="touchUpInside" id="E4G-BJ-ynB"/>
+                                    <action selector="resource2button:" destination="hVf-ag-AdY" eventType="touchUpInside" id="LM7-Be-1iJ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TFH-MM-fEn">
@@ -856,6 +847,23 @@
                                     <action selector="happyChem:" destination="nVf-v7-Jxl" eventType="touchUpInside" id="Ns9-v7-U2A"/>
                                     <action selector="happyChemButton:" destination="nVf-v7-Jxl" eventType="touchUpInside" id="ct0-Cv-E0y"/>
                                     <action selector="happyChemButton:" destination="nvp-gj-NyZ" eventType="touchUpInside" id="mxl-bf-f0e"/>
+                                    <action selector="resource1link:" destination="hVf-ag-AdY" eventType="touchUpInside" id="8SM-gY-Otz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rsi-u7-X1K">
+                                <rect key="frame" x="68" y="512" width="276" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.87706333400000003" green="0.20358723400000001" blue="0.17186346650000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="resource #3">
+                                    <fontDescription key="titleFontDescription" name="Oxygen-Light" family="Oxygen" pointSize="17"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="chemButton:" destination="nVf-v7-Jxl" eventType="touchUpInside" id="9EH-uy-6wf"/>
+                                    <action selector="happyChem:" destination="nVf-v7-Jxl" eventType="touchUpInside" id="yPm-K1-7Qb"/>
+                                    <action selector="happyChemButton:" destination="nvp-gj-NyZ" eventType="touchUpInside" id="4rQ-xe-sEm"/>
+                                    <action selector="happyChemButton:" destination="nVf-v7-Jxl" eventType="touchUpInside" id="E4G-BJ-ynB"/>
+                                    <action selector="resource3button:" destination="hVf-ag-AdY" eventType="touchUpInside" id="bff-gA-ZQ8"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1181,25 +1189,31 @@
                                 <rect key="frame" x="74" y="381" width="283" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="resource 2">
+                                <buttonConfiguration key="configuration" style="filled" title="listen #2">
                                     <fontDescription key="titleFontDescription" name="Oxygen-Light" family="Oxygen" pointSize="17"/>
                                     <color key="baseBackgroundColor" red="0.28603059050000001" green="0.52532857659999999" blue="0.2881978154" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="res2button:" destination="Sw9-Qu-95G" eventType="touchUpInside" id="ec5-Yi-wfX"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9mK-6v-Cwz">
                                 <rect key="frame" x="74" y="516" width="283" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="resource 3">
+                                <buttonConfiguration key="configuration" style="filled" title="watch #3">
                                     <fontDescription key="titleFontDescription" name="Oxygen-Light" family="Oxygen" pointSize="17"/>
                                     <color key="baseBackgroundColor" red="0.28603059050000001" green="0.52532857659999999" blue="0.2881978154" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="watch3button:" destination="Sw9-Qu-95G" eventType="touchUpInside" id="26o-d6-o3X"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oeM-MS-0FN">
                                 <rect key="frame" x="74" y="258" width="283" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="resource 1">
+                                <buttonConfiguration key="configuration" style="filled" title="read #1">
                                     <fontDescription key="titleFontDescription" name="Oxygen-Light" family="Oxygen" pointSize="17"/>
                                     <color key="baseBackgroundColor" red="0.28603059050000001" green="0.52532857659999999" blue="0.2881978154" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
